@@ -145,13 +145,26 @@ main {
     font-size: 1.1rem;
     line-height: 1.8;
     color: var(--text-dark);
-    margin-bottom: 2rem;
-    text-align: justify;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    list-style-type: "⌛";
+    padding-left: 1.5rem;
 }
 
-.card-text strong {
-    color: var(--pastel-purple);
+.card-text li {
+    margin-bottom: 0.8rem;
+    padding-left: 0.5rem;
+    font-style: italic;
+}
+
+.card-question {
+    font-size: 1.2rem;
     font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-style: italic;
+    color: var(--pastel-purple);
 }
 
 .reveal-btn {
