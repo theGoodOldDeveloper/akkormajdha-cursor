@@ -354,7 +354,7 @@ footer {
     }
     
     .subtitle {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     
     .card {
@@ -362,36 +362,46 @@ footer {
     }
     
     .card-content h2 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     
     .card-text {
-        font-size: 1rem;
+        font-size: 1.3rem;
+        line-height: 1.9;
+    }
+    
+    .card-question {
+        font-size: 1.4rem;
     }
     
     .reveal-btn {
-        padding: 1rem 2rem;
-        font-size: 1rem;
+        padding: 1.2rem 2rem;
+        font-size: 1.1rem;
         width: 100%;
     }
     
+    footer {
+        font-size: 1rem;
+    }
+    
     .modal-content {
-        margin: 20% auto;
-        padding: 1.5rem;
+        margin: 15% auto;
+        padding: 2rem;
         width: 95%;
     }
     
     .modal-content h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     
     .answer-text {
-        font-size: 1.4rem;
-        padding: 1rem;
+        font-size: 1.8rem;
+        padding: 1.2rem;
     }
     
     .answer-subtext {
-        font-size: 1rem;
+        font-size: 1.3rem;
+        line-height: 1.7;
     }
 }
 
@@ -401,7 +411,11 @@ footer {
     }
     
     header h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
     }
     
     main {
@@ -409,6 +423,48 @@ footer {
     }
     
     .card {
-        padding: 1.2rem;
+        padding: 1.5rem;
+    }
+    
+    .card-content h2 {
+        font-size: 1.4rem;
+    }
+    
+    .card-text {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        padding-left: 1.2rem;
+    }
+    
+    .card-question {
+        font-size: 1.3rem;
+    }
+    
+    .reveal-btn {
+        padding: 1.1rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    footer {
+        font-size: 0.95rem;
+        padding: 1.5rem;
+    }
+    
+    .modal-content {
+        margin: 10% auto;
+        padding: 1.5rem;
+    }
+    
+    .modal-content h2 {
+        font-size: 1.6rem;
+    }
+    
+    .answer-text {
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    
+    .answer-subtext {
+        font-size: 1.2rem;
     }
 }
